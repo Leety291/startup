@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>평균에 가장 가까운 숫자 맞히기</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>평균에 가장 가까운 숫자 맞히기</h1>
+        <p class="description">1~100 사이의 자연수 중 다른 사람들의 평균에 가장 가까운 숫자를 맞춰보세요!</p>
+
+        <div id="input-section">
+            <form id="participant-form">
+                <div class="form-group">
+                    <label for="studentId">학번:</label>
+                    <input type="text" id="studentId" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">이름:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="number">숫자 (1-100):</label>
+                    <input type="number" id="number" min="1" max="100" required>
+                </div>
+                <button type="submit" id="submit-btn">제출</button>
+            </form>
+            <p id="message" class="message"></p>
+        </div>
+
+        <div id="admin-section">
+            <button id="show-results-btn">결과 발표</button>
+            <button id="reset-game-btn" class="reset-btn">게임 초기화</button>
+        </div>
+
+        <div id="results-section" class="hidden">
+            <h2>결과</h2>
+            <p>전체 평균: <span id="average-display"></span></p>
+            <table id="results-table">
+                <thead>
+                    <tr>
+                        <th>순위</th>
+                        <th>이름</th>
+                        <th>학번</th>
+                        <th>입력 숫자</th>
+                        <th>평균과의 차이</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- 결과가 여기에 동적으로 표시됩니다 -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
