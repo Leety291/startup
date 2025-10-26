@@ -60,6 +60,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Handle show results button click
     showResultsBtn.addEventListener('click', () => {
+        const password = prompt('결과를 발표하려면 비밀번호를 입력하세요:');
+        if (password !== '0415') {
+            alert('비밀번호가 올바르지 않습니다.');
+            return;
+        }
+
         if (participants.length === 0) {
             showMessage('아직 참가자가 없습니다.', true);
             return;
