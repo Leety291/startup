@@ -95,7 +95,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Handle reset game button click
     resetGameBtn.addEventListener('click', () => {
-        if (confirm('정말로 게임을 초기화하시겠습니까? 모든 참가자 데이터가 삭제됩니다.')) {
+        const password = prompt('게임을 초기화하려면 비밀번호를 입력하세요:');
+        if (password === '0415') {
             participants = [];
             saveParticipants();
             resultsTableBody.innerHTML = '';
@@ -106,6 +107,8 @@ document.addEventListener('DOMContentLoaded', () => {
             nameInput.value = '';
             numberInput.value = '';
             studentIdInput.focus();
+        } else {
+            alert('비밀번호가 올바르지 않습니다.');
         }
     });
 

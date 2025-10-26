@@ -38,9 +38,9 @@ const games = [
     },
     {
         id: 5,
-        title: "새로운 게임",
-        description: "게임 설명을 입력하세요.",
+        title: "간식 강화하기",
+        description: "간식 강화하기",
         thumbnail: "",
-        link: "#"
+        link: "https://hajun0206.github.io/ReinforceSnackBuild/"
     }
 ];
