@@ -35,5 +35,12 @@ const games = [
         description: "ThrowDodge는 2인용 턴제 웹 게임으로, 한 플레이어는 위에서 투사체를 던져 공격하고 다른 플레이어는 아래에서  피하며 방어합니다. 네온 스타일의 그래픽과 다양한 아이템, 역할 교대 시스템을 통해 전략적인 심리전을 즐길 수 있습니다.",
         thumbnail: "",
         link: "https://leety291.github.io/ThrowDodge/"
+    },
+    {
+        id: 5,
+        title: "새로운 게임",
+        description: "게임 설명을 입력하세요.",
+        thumbnail: "",
+        link: "#"
     }
 ];
