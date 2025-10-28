@@ -18,14 +18,14 @@ const games = [
     {
         id: 2,
         title: "반응속도 테스트 - F1",
-        description: "두 번째 게임은 독특한 스토리와 그래픽을 자랑합니다. 지금 바로 플레이해보세요!",
+        description: "",
         thumbnail: "",
         link: "https://doyle0415.github.io/startupF1/startup/index.html"
     },
     {
         id: 3,
         title: "에임랩",
-        description: "세 번째 게임은 전략적인 요소가 강합니다. 당신의 두뇌를 시험해보세요!",
+        description: "",
         thumbnail: "",
         link: "https://hajun0206.github.io/Unity_AimTestBuild/"
     },
