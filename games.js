@@ -11,28 +11,28 @@ const games = [
     {
         id: 1,
         title: "neon-survival",
-        description: "neon-survival은 플레이어가 파란 화살표 드론을 조종하여 타워를 방어하는 뱀서라이크 게임입니다. 웨이브  기반으로 몰려오는 다양한 적들을 QER 스킬과 룰렛 상점 업그레이드를 활용해 물리치고 최고 기록에 도전합니다.",
+        description: "웨이브3 이하 : 마이쮸, 웨이브4 : 과자 택1, 웨이브5 : 과자 택2",
         thumbnail: "", // 예: "https://example.com/game1-thumbnail.jpg"
         link: "https://leety291.github.io/neon-survival/" // 예: "https://github.com/your-team/game1"
     },
     {
         id: 2,
         title: "반응속도 테스트 - F1",
-        description: "",
+        description: "0.27초 이하 : 마이쮸, 0.21초 이하 : 과자 택1",
         thumbnail: "",
         link: "https://doyle0415.github.io/startupF1/startup/index.html"
     },
     {
         id: 3,
         title: "에임랩",
-        description: "",
+        description: "35개 이하 : 마이쮸, 36개 이상 : 과자 택1",
         thumbnail: "",
         link: "https://hajun0206.github.io/Unity_AimTestBuild/"
     },
     {
         id: 4,
         title: "ThrowDodge",
-        description: "ThrowDodge는 2인용 턴제 웹 게임으로, 한 플레이어는 위에서 투사체를 던져 공격하고 다른 플레이어는 아래에서  피하며 방어합니다. 네온 스타일의 그래픽과 다양한 아이템, 역할 교대 시스템을 통해 전략적인 심리전을 즐길 수 있습니다.",
+        description: "승자 : 과자 택1, 패자 : 마이쮸",
         thumbnail: "",
         link: "https://leety291.github.io/ThrowDodge/"
     },
