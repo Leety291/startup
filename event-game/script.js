@@ -33,8 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const number = parseInt(numberInput.value, 10);
 
         // Basic validation
-        if (!studentId || !name || isNaN(number) || number < 1 || number > 100) {
-            showMessage('모든 필드를 올바르게 입력해주세요 (숫자는 1~100). ', true);
+        if (!studentId || !name || isNaN(number) || number < 1 || number > 10000) {
+            showMessage('모든 필드를 올바르게 입력해주세요 (숫자는 1~10000). ', true);
             return;
         }
 
